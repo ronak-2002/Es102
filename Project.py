@@ -33,7 +33,8 @@ for a in soup.findAll('a',href=True, attrs={'class':'_1fQZEK'}): #Opening an anc
     ra[f]=ra.get(f,0)+float(d)
     count=count+1
 # Data Analysis starts here
-print("In a random Sample of",count," Smartphones split-up is as:")
+print("This programme picks some data of Smartphones from flipkart.com and analyse it") 
+print("In a random Sample of",count,"Smartphones split-up is as:")
 # Plotting the graph for Sample Data
 plt.title("Sample Statistics")
 plt.xlabel("Brand")
